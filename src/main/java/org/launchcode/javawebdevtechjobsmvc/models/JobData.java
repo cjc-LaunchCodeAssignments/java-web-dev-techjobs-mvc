@@ -28,6 +28,7 @@ public class JobData {
     /**
      * Fetch list of all job objects from loaded data,
      * without duplicates, then return a copy.
+     * @return
      */
 
     public static ArrayList<Job> findAll() {
